@@ -1,0 +1,12 @@
+@import 'reset';
+@import 'theme';
+
+#app {
+  @extend %text-regular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
